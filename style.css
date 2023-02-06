@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    background-color: #F7EFE5;
+}
+
+
+/* homepage start */
+.logo {
+    justify-content: center;
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    justify-content: right;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menu ul li {
+    list-style-type: none;
+    border: 5px solid black;
+}
+
+li {
+    float: right;
+    overflow: hidden;
+}
+
+li a {
+    font-size: 19px;
+    color: #674188;
+    text-align: center;
+    padding: 24px 16px;
+    text-decoration: none;
+
+}
+
+li a:hover {
+    background-color: turquoise;
+}
+
+.baslik {
+    font-size: 28px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.p-text {
+    font-family: sans-serif;
+    font-style: italic;
+    color: #3C84AB;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* homepage end */
+
+/* books css start */
+.img-book1 {
+    padding: auto;
+    margin: auto;
+
+}
+
+.books {
+    font-size: 26px;
+    font-weight: bold;
+    color: #674188;
+
+}
+
+.fs-tx {
+    font-size: 16px;
+    font-family: sans-serif;
+    text-indent: 25px;
+    font-style: italic;
+    color: #3C84AB;
+}
+
+/* books css end */
+

@@ -59,6 +59,7 @@ li a {
 
 li a:hover {
     background-color: turquoise;
+    text-decoration: none;
 }
 
 .baslik {
